@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "module": "CommonJS",
-        "moduleResolution": "Node16",
+        "moduleResolution": "Node",
         "strict": true,
         "outDir": "./built",
         "experimentalDecorators": true,
