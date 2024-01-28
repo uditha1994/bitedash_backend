@@ -109,7 +109,7 @@ export const sample_foodData: any[] = [
       origins: ["Hawaii"],
       cooktime: "15 minutes",
     },
-]
+];
 
 export const sample_tags:any[] = [
   {name:'All', count:10},
@@ -127,5 +127,21 @@ export const sample_tags:any[] = [
   {name:'Soup', count:1},
   {name:'Chicken', count:2},
   {name:'Poke', count:1},
-]
+];
   
+export const sample_users: any[] = [
+  {
+    name: "Uditha Lashan",
+    email: "uditha@programmer.net",
+    password: "123456",
+    address: "Srilanka",
+    isAdmin: true,
+  },
+  {
+    name: "John Doe",
+    email: "john@gmail.com",
+    password: "123456",
+    address: "Srilanka",
+    isAdmin: false,
+  }
+];
