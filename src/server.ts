@@ -7,6 +7,7 @@ import { sample_foodData, sample_tags, sample_users } from "./data";
 import jwt from "jsonwebtoken";
 import foodRouter from './router/food.router';
 import userRouter from './router/user.router';
+import orderRouter from './router/order.router';
 import { dbConnect } from './configs/database.config';
 
 dbConnect();
@@ -21,6 +22,7 @@ app.use(cors({
 
 app.use("/api/foods", foodRouter);
 app.use("/api/users", userRouter);
+app.use("/api/orders", orderRouter);
 
 const port = 5000;
 app.listen(port, ()=>{
