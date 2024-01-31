@@ -11,6 +11,7 @@ import orderRouter from './router/order.router';
 import { dbConnect } from './configs/database.config';
 
 dbConnect();
+require("dotenv").config();
 
 const app = express();
 app.use(express.json());
