@@ -21,7 +21,7 @@ router.post('/create', asyncHandler(
         status:OrderStatus.NEW
     });
 
-    const newOrder = new OrderModel({...requestOrder, user:req.user.id});
+    const newOrder = new OrderModel({...requestOrder, user: req.user.id});
     await newOrder.save();
     res.send(newOrder);
 })

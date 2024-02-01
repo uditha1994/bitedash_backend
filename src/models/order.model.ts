@@ -9,7 +9,7 @@ export interface LatLng{
 
 export const LatLngSchema = new Schema<LatLng>({
     lat: {type: String, required:true},
-    lng: {type: String, required:true}
+    lng: {type: String, required:true},
 });
 
 export interface OrderItem{
